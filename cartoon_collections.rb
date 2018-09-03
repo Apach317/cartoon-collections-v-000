@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(long_calls)
-  long_calls.all? = lc
+  long_calls.all? == lc
     if lc.length > 4
       return false
     else
