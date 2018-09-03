@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   roll_call = []
-    while roll_call < dwarves.length
+    while roll_call_dwarves(dwarves).each_with_index { |dwarf| roll_call << dwarves}
       puts dwarves.each_with_index
     end
 end
